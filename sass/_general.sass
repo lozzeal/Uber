@@ -10,6 +10,9 @@ nav
 	background-color: #212121
 	z-index: 5
 
+.hamburger
+	display: none
+
 .menu
 	display: flex
 	justify-content: space-between
@@ -60,6 +63,9 @@ nav
 		text-transform: uppercase
 		text-align: right
 		line-height: 12px
+		&:hover
+			text-decoration: none
+			color: #fff
 	&_btn
 		margin-top: 19px
 		width: 172px
@@ -74,6 +80,7 @@ nav
 		font-weight: 400
 		text-transform: uppercase
 		+btn_hover
+
 
 .promo
 	min-height: 800px
@@ -192,6 +199,7 @@ nav
 	&_white 
 		color: #fff
 
+	
 .mobile 
 	min-height: 864px
 	padding: 48px 0 79px 0
@@ -412,5 +420,5 @@ footer
 			margin-top: 19px
 			text-transform: uppercase
 			text-align: center
-.xs-visible
+.xs-visible 
 	display: none
